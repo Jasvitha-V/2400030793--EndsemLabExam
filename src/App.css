@@ -1,19 +1,19 @@
-/* General Container */
+
 .container {
   width: 80%;
   margin: 40px auto;
   font-family: Arial, sans-serif;
-  color: #ffffff; /* White text */
+  color: #ffffff; 
 }
 
-/* Header */
+
 h2 {
   text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
-/* Filters Section */
+
 .filters {
   display: flex;
   gap: 20px;
@@ -37,7 +37,7 @@ h2 {
   color: #000;
 }
 
-/* Apply Button */
+
 button {
   padding: 8px 15px;
   background: #1e90ff;
@@ -51,7 +51,7 @@ button:hover {
   background: #0b76d1;
 }
 
-/* Table Styling */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -60,14 +60,14 @@ table {
 
 th,
 td {
-  border: 1px solid #ddd;   /* Light border for visibility */
+  border: 1px solid #ddd;   
   padding: 10px;
   text-align: center;
-  color: #ffffff;           /* White text */
+  color: #ffffff;          
 }
 
 th {
-  background: #333333;      /* Dark header */
+  background: #333333;     
   cursor: pointer;
 }
 
@@ -83,7 +83,7 @@ th:hover {
   background: #444444;
 }
 
-/* Page Background */
+
 body {
-  background-color: #1d1d1d; /* Dark theme */
+  background-color: #1d1d1d; 
 }
