@@ -18,7 +18,7 @@ function App() {
     max: "",
   });
 
-  // Sort function
+  
   const sortBy = (key) => {
     const sorted = [...data].sort((a, b) => {
       if (a[key] < b[key]) return sortAsc ? -1 : 1;
@@ -30,7 +30,6 @@ function App() {
     setData(sorted);
   };
 
-  // Apply filters
   const applyFilters = () => {
     const { subject, min, max } = filters;
 
@@ -49,7 +48,7 @@ function App() {
     <div className="container">
       <h2>Student Marks Table</h2>
 
-      {/* Filters */}
+      {  }
       <div className="filters">
         <label>
           Subject:
@@ -86,7 +85,7 @@ function App() {
         <button onClick={applyFilters}>Apply</button>
       </div>
 
-      {/* Table */}
+      {  }
       <table>
         <thead>
           <tr>
