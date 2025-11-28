@@ -1,0 +1,89 @@
+/* General Container */
+.container {
+  width: 80%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  color: #ffffff; /* White text */
+}
+
+/* Header */
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.filters input,
+.filters select {
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000;
+}
+
+/* Apply Button */
+button {
+  padding: 8px 15px;
+  background: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b76d1;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;   /* Light border for visibility */
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;           /* White text */
+}
+
+th {
+  background: #333333;      /* Dark header */
+  cursor: pointer;
+}
+
+tr {
+  background: #222222;
+}
+
+tr:nth-child(even) {
+  background: #2e2e2e;
+}
+
+th:hover {
+  background: #444444;
+}
+
+/* Page Background */
+body {
+  background-color: #1d1d1d; /* Dark theme */
+}

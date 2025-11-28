@@ -1,0 +1,102 @@
+/* ===== Page Background and Centering ===== */
+body {
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;      /* Centers horizontally */
+  align-items: flex-start;      /* Aligns content slightly below top */
+  min-height: 100vh;            /* Full viewport height */
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Main Container ===== */
+.container {
+  width: 60%;
+  max-width: 850px;
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;           /* Center heading + filters */
+}
+
+/* ===== Header ===== */
+h2 {
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+/* ===== Filter Section ===== */
+.filters {
+  display: flex;
+  gap: 20px;
+  justify-content: center;      /* Center the filter controls */
+  margin-bottom: 25px;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.filters input,
+.filters select {
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000000;
+  width: 130px;
+}
+
+/* ===== Apply Button ===== */
+button {
+  padding: 8px 15px;
+  background: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 18px;
+}
+
+button:hover {
+  background: #0b76d1;
+}
+
+/* ===== Table Styling ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto; /* Center the table */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+th {
+  background: #333333;
+  cursor: pointer;
+}
+
+tr {
+  background: #222222;
+}
+
+tr:nth-child(even) {
+  background: #2e2e2e;
+}
+
+th:hover {
+  background: #444444;
+}
